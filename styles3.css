@@ -1,0 +1,70 @@
+/* General body styles */
+body {
+    font-family: 'Noto Serif Display', serif; /* Set the font family */
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align text */
+}
+
+/* Header styles */
+header {
+    background-color: pink; /* Pink background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding inside the header */
+    border-bottom: 2px solid #ff1493; /* Add a border at the bottom of the header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Add margin between list items */
+}
+
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Section styles */
+section {
+    margin: 20px; /* Add margin around sections */
+    padding: 20px; /* Add padding inside sections */
+    background-color: #f9f9f9; /* Light grey background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #ff1493; /* Dark pink color for headings */
+}
+
+/* Paragraph styles */
+section p {
+    font-size: 1.2em; /* Increase font size */
+    line-height: 1.6; /* Increase line height for readability */
+    color: #666; /* Lighter text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: lightpink; /* Light pink background color */
+    padding: 10px; /* Add padding inside the footer */
+    border-top: 2px solid #ff1493; /* Add a border at the top of the footer */
+    color: white; /* White text color */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Display list items as blocks */
+        margin: 5px 0; /* Add margin between list items */
+    }
+}
